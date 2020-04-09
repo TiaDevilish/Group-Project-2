@@ -1,0 +1,606 @@
+/*login start*/
+body{
+    font-family: 'Muli', sans-serif;
+    color:  rgb(70,69,91);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.intro-section{
+    background-image: url("../images/login.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.intro-content-wrapper{
+    width: 500px;
+    max-width: 100%;
+    margin-top: auto;
+    color:hsl(244,17,28) ;
+}
+
+.form-section{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper-signup-text{
+    font-size: 16px;
+    padding-top: 50px;
+    width: 410px;
+    max-width: 100%;
+}
+
+.intro-title{
+    color: rgb(63,61,86);
+}
+
+h1{
+    margin: 50px 50px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.intro-text{
+    margin-bottom: -10px;
+    color: rgb(63,61,86);
+}
+
+.logotext{
+    font-size: 16px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 50px;
+}
+
+.login-wrapper{
+    width: 410px;
+    max-width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #fcfcfc;
+    height: 300px;
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.login-wrapper-signup-text{
+    color: rgb(63,61,86);
+}
+
+.login-wrapper .form-control{
+    min-height: 55px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #f4f4f4;
+    padding: 19px 25px 18px;
+    margin-bottom: 18px;
+}
+
+.login-btn{
+    padding: 17px 40px 16px 41px;
+    border-radius: 4px;
+    background-color: goldenrod;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    line-height: 20px;
+}
+
+.login-btn:hover{
+    color: white;
+}
+
+.logologin{
+    width: 60px;
+    margin-left: 15px;
+}
+/*login end*/
+
+/*signup start*/
+
+.contentholder{
+    background-image: url("../images/signup1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.signup-btn{
+    padding: 17px 40px 16px 41px;
+    border-radius: 4px;
+    background-color: goldenrod;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    line-height: 20px;
+}
+
+.signup-btn:hover{
+    color: white;
+}
+
+.signup-wrapper{
+    width: 410px;
+    max-width: 100%;
+    margin: auto;
+    background-color: #fcfcfc;
+    height: 440px;
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+.signup-wrapper .form-control{
+    min-height: 55px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #f4f4f4;
+    padding: 19px 25px 18px;
+    margin-bottom: 18px;
+}
+
+
+/*signup end*/
+
+/*members page start*/
+
+.imageandwelcome{
+    vertical-align: top;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.choices{
+    text-align: center;
+    margin-top: 100px;
+}
+.add-btn, .browsebook-btn{
+    padding: 17px 20px 16px 21px;
+    border-radius: 4px;
+    background-color: goldenrod;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    line-height: 20px;
+    margin-top: 50px;
+}
+
+.add-btn:hover, .browsebook-btn:hover{
+    color: white;
+    margin-top: 50px;
+}
+.membercontent{
+    height: 100vh;
+}
+
+/*members page end*/
+
+/*createbook page start*/
+.container-submit{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.createcontent{
+    background-image: url("../images/upload.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.container-submit{
+    width: 700px;
+    max-width: 100%;
+    margin: auto;
+    background-color: #fcfcfc;
+    height: 530px;
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+.submit-btn, .btn-default{
+    padding: 17px 40px 16px 41px;
+    border-radius: 4px;
+    background-color: rgb(217, 165, 32);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    line-height: 20px; 
+}
+
+#deletefromcart{
+    width: 200px;
+}
+
+.btn-delete{
+    padding: 17px 20px 16px 20px;
+    border-radius: 4px;
+    background-color: rgb(217, 165, 32);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    line-height: 20px; 
+}
+.btn-delete:hover{
+    color: white;
+}
+
+.submit-btn:hover{
+    color: white;
+}
+.btn-default:hover{
+    color: white;
+}
+
+.rules{
+    margin: auto;
+    color: rgb(70,69,91);
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: goldenrod;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+  /*create a book page end*/
+
+  /*search-book start*/
+  .imagebrowse, .imagesearch{
+    vertical-align: top;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-search1{
+    padding: 17px 40px 16px 41px;
+    border-radius: 4px;
+    background-color: rgb(217, 165, 32);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    line-height: 20px; 
+    position:relative;
+	left:10px;
+}
+
+.checkout-btn{
+    padding: 17px 40px 16px 41px;
+    border-radius: 4px;
+    background-color: rgb(217, 165, 32);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    line-height: 20px; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.checkoutbtndiv{
+    text-align: center;
+}
+
+.checkout-btn:hover{
+    color: white;
+}
+
+.btn-search1:hover{
+    color: white;
+}
+
+.btn-block{
+    padding: 17px 40px 16px 41px;
+    border-radius: 4px;
+    background-color: rgb(217, 165, 32);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    line-height: 20px; 
+    left:50px;
+}
+
+.btn-block:hover{
+    color: white;
+}
+
+.linktoapi{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.allbooksdisplayed{
+   align-items: center;
+   width: 100vw;
+   height: 500px;
+   margin-top: 50px;
+   align-items: center;
+   margin-left: 60px;
+   white-space: nowrap;
+}
+
+#search-bar{
+    min-height: 55px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #f4f4f4;
+    padding: 19px 25px 18px;
+    margin-bottom: 18px;
+    width: 400px;
+    margin-left: auto;
+}
+
+.card{
+    width: 200px;
+    position: relative;
+    float: left;
+    margin-bottom: 120px;
+    margin-right: 90px;
+    word-wrap: break-word;
+    min-height: 450px;
+    max-height: 450px;
+}
+
+.welcometext, .member-name{
+    color: rgb(70,69,91)
+}
+
+.yourcart{
+    padding-bottom: 10px;
+    color: rgb(70,69,91);
+}
+
+.card-body{
+    width: 200px;
+}
+
+.card-img-top{
+    width: 200px;
+}
+
+.card-title{
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.price-text{
+    margin-left: 0px;
+}
+
+.card-text{
+    font-size: 11px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+}
+/*search-book end*/
+
+/*apibooks start*/
+#search-box{
+    min-height: 55px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #f4f4f4;
+    padding: 19px 25px 18px;
+    margin-bottom: 18px;
+    width: 400px;
+    position:relative;
+	right: 50px;
+}
+
+.input-field{
+    width: 100%;
+}
+
+.btn-search{
+    padding: 17px 40px 16px 41px;
+    border-radius: 4px;
+    background-color: rgb(217, 165, 32);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    line-height: 20px; 
+    position:relative;
+	left:50px;
+}
+
+.btn-search:hover{
+    color: white;
+}
+
+#search{
+	width:300px;
+	height:150px;
+	margin:auto;
+	margin-top:20px;
+	padding:15px;
+}
+/*apibooks end*/
+
+/*userpage start*/
+
+.user-wrapper{
+    width: 200px;
+    max-width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #fcfcfc;
+    height: 300px;
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    position: relative;
+    float: left;
+    margin-bottom: 90px;
+    margin-right: 50px;
+    word-wrap: break-word;
+    min-height: 320px;
+    max-height: 450px;
+}
+.allusersdisplayed{
+    align-items: center;
+    width: 100vw;
+    height: 500px;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 60px;
+    white-space: nowrap;
+ }
+
+.navbar{
+    width: 100%;
+    padding-right: 10px;
+    top: 0px;
+    transition: .5s;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .6s;
+}
+
+#profile:hover{
+   background: goldenrod; 
+}
+
+#home:hover{
+    background: goldenrod; 
+ }
+
+ #library:hover{
+    background: goldenrod; 
+ }
+
+ #logOut:hover{
+    background: goldenrod; 
+ }
+
+.cart-contents{
+    color: rgb(70,69,91);
+}
+
+.cart-contents:hover{
+    color: goldenrod;
+    transition: .6s;
+}
+
+.adminlogin{
+    font-size: 12px;
+    width: 410px;
+    max-width: 100%;
+}

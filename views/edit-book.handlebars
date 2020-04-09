@@ -1,0 +1,51 @@
+ <div class="createcontent">
+        <h5 class="rules">Before you submit your book, please read our <a href="#popup1">Terms and Conditions</a>!</h5>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <ul>
+                        <li>Fill out all fields.</li>
+                        <li>Folow the format rules.</li>
+                        <li>Books that have a cover, have a better chance of being sold.</li>
+                        <li>Please, no profanities!</li>
+                        <li>Have fun and enjoy our website!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div class="container-submit">
+        <form method="post" action="/api/book/{{book.id}}" class="submitcont" >
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Book Title</label>
+                    <input type="text" class="form-control"  placeholder="Enter book title" name="title" value="{{book.title}}" >
+                    </div>
+                    <div class="form-group">
+                    <label for="formGroupExampleInput">Author</label>
+                    <input type="text" class="form-control"  placeholder="Enter the book's author" name="author" value="{{book.author}}">
+                    </div>
+            
+                    <div class="form-group">
+                    <label for="formGroupExampleInput">Price</label>
+                    <input type="number" min="5.00" max="100.00" step="0.01" class="form-control"  placeholder="5.00" name="price" value="{{book.price}}"  >
+                    </div>
+                    <div class="form-group">
+                    <label for="formGroupExampleInput">Description</label>
+                    <input type="text" class="form-control"  placeholder="Enter a brief description" name="description" value="{{book.description}}">
+                    </div>
+                    <div class="form-group">
+                    <label for="formGroupExampleInput">Book Cover</label>
+                    <input type="text" class="form-control"  placeholder="Submit the cover URL" name="jpegImg" value="{{book.jpegImg}}">
+                    </div>
+                    <input name="submit" type="submit" class="btn submit-btn" value="Edit your book">
+                    <input name="delete"  id="delete" class="btn submit-btn" value="Delete your book">
+            </form>
+			<span class="todo-container">
+			</span>
+    </div>
+</div>
+<div class="termsandreg" id="terms">
+
+</div>
+
+ <script src="../../assets/js/edit-book.js" type="text/javascript"></script>

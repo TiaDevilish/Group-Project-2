@@ -1,0 +1,42 @@
+<div class="availablecontent">
+    <div class="imagebrowse">
+        <img src="/assets/images/browse.png" style="width:350px; height: 300px;" class="girlreading">
+    </div>
+    <div id="search">
+        <form id="myform">
+            <div class="input-field">
+
+            </div>
+            <button class="btn btn-search1" id="addBook" type="button"> Add Another Book</button>
+            <h5 class="linktoapi">If you don't find the book you are looking for, we got you! <a href="/search-apibook">Click
+                here!</a></h5>
+        </form>
+    </div>
+    <div class="allbooksdisplayed">
+        {{#each books}}
+
+            <div class="card-deck" id="{{id}}">
+                <div class="card">
+                    <img class="card-img-top" src="{{jpegImg}}" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">{{title}}</h4>
+                        <p class="card-text">By: {{author}}</p>
+                        <p class="card-text">{{description}}</p>
+                        <p class="price-text">Price: {{price}}</p>
+                        <label id="bookId" class="hidden">{{id}}</label>
+                        {{#if isNotOwn}}
+                            <a class="btn btn-block addToCart" data-id="{{id}}">Add To Cart</a>
+                        {{else}}
+                            <a class="btn btn-block editBook" data-id="{{id}}">Edit</a>
+                        {{/if}}
+                    </div>
+                </div>
+            </div>
+
+        {{/each}}
+    </div>
+
+</div>
+
+<script src="../../assets/js/search-book.js" type="text/javascript"></script>
+
